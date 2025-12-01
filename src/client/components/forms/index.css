@@ -269,3 +269,21 @@
   justify-content: space-between;
   margin-bottom: 20px;
 }
+
+.instructions {
+  display: flex;
+  justify-content: left;
+  flex-grow: 1;
+  height: 540px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.instructions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
